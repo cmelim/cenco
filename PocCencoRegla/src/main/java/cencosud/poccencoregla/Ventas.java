@@ -32,8 +32,11 @@ public class Ventas implements java.io.Serializable
    @org.kie.api.definition.type.Label("Monto")
    private java.lang.Integer monto;
 
-   @org.kie.api.definition.type.Label(value = "Cargo")
+   @org.kie.api.definition.type.Label("Cargo")
    private java.lang.String cargo;
+
+   @org.kie.api.definition.type.Label(value = "% por cargo")
+   private java.lang.Integer porcentajePorcargo;
 
    public Ventas()
    {
@@ -160,12 +163,23 @@ public class Ventas implements java.io.Serializable
       this.cargo = cargo;
    }
 
+   public java.lang.Integer getPorcentajePorcargo()
+   {
+      return this.porcentajePorcargo;
+   }
+
+   public void setPorcentajePorcargo(java.lang.Integer porcentajePorcargo)
+   {
+      this.porcentajePorcargo = porcentajePorcargo;
+   }
+
    public Ventas(java.lang.Integer ventaNeta, java.lang.Integer ventaAreaComercia,
          java.lang.Integer presupuesto, java.lang.Integer planDeMeta,
          java.lang.Integer antiguedaLocal, java.lang.Integer rentaBruta,
          java.lang.Integer porcentajeCumplimiento,
          java.lang.Integer variacionMinima, java.lang.Integer variacionMaxima,
-         java.lang.Integer rut, java.lang.Integer monto, java.lang.String cargo)
+         java.lang.Integer rut, java.lang.Integer monto, java.lang.String cargo,
+         java.lang.Integer porcentajePorcargo)
    {
       this.ventaNeta = ventaNeta;
       this.ventaAreaComercia = ventaAreaComercia;
@@ -179,6 +193,7 @@ public class Ventas implements java.io.Serializable
       this.rut = rut;
       this.monto = monto;
       this.cargo = cargo;
+      this.porcentajePorcargo = porcentajePorcargo;
    }
 
 }

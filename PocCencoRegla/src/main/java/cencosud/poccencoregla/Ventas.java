@@ -9,28 +9,31 @@ public class Ventas implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Venta Neta")
+   @org.kie.api.definition.type.Label("Venta Neta")
    private java.lang.Integer ventaNeta;
-   @org.kie.api.definition.type.Label(value = "Venta Area Comercia")
+   @org.kie.api.definition.type.Label("Venta Area Comercia")
    private java.lang.Integer ventaAreaComercia;
-   @org.kie.api.definition.type.Label(value = "Presupuesto")
+   @org.kie.api.definition.type.Label("Presupuesto")
    private java.lang.Integer presupuesto;
-   @org.kie.api.definition.type.Label(value = "Plan De Metas")
+   @org.kie.api.definition.type.Label("Plan De Metas")
    private java.lang.Integer planDeMeta;
-   @org.kie.api.definition.type.Label(value = "Antiguedad Local")
+   @org.kie.api.definition.type.Label("Antiguedad Local")
    private java.lang.Integer antiguedaLocal;
-   @org.kie.api.definition.type.Label(value = "Renta Bruta")
+   @org.kie.api.definition.type.Label("Renta Bruta")
    private java.lang.Integer rentaBruta;
-   @org.kie.api.definition.type.Label(value = "Porcentaje a Pajar")
+   @org.kie.api.definition.type.Label("Porcentaje a Pajar")
    private java.lang.Integer porcentajeCumplimiento;
-   @org.kie.api.definition.type.Label(value = "Variacion Minima")
+   @org.kie.api.definition.type.Label("Variacion Minima")
    private java.lang.Integer variacionMinima;
-   @org.kie.api.definition.type.Label(value = "Variacion Maxima")
+   @org.kie.api.definition.type.Label("Variacion Maxima")
    private java.lang.Integer variacionMaxima;
-   @org.kie.api.definition.type.Label(value = "Rut")
+   @org.kie.api.definition.type.Label("Rut")
    private java.lang.Integer rut;
-   @org.kie.api.definition.type.Label(value = "Monto")
+   @org.kie.api.definition.type.Label("Monto")
    private java.lang.Integer monto;
+
+   @org.kie.api.definition.type.Label(value = "Cargo")
+   private java.lang.String cargo;
 
    public Ventas()
    {
@@ -147,14 +150,22 @@ public class Ventas implements java.io.Serializable
       this.monto = monto;
    }
 
-   public Ventas(java.lang.Integer ventaNeta,
-         java.lang.Integer ventaAreaComercia, java.lang.Integer presupuesto,
-         java.lang.Integer planDeMeta, java.lang.Integer antiguedaLocal,
-         java.lang.Integer rentaBruta,
+   public java.lang.String getCargo()
+   {
+      return this.cargo;
+   }
+
+   public void setCargo(java.lang.String cargo)
+   {
+      this.cargo = cargo;
+   }
+
+   public Ventas(java.lang.Integer ventaNeta, java.lang.Integer ventaAreaComercia,
+         java.lang.Integer presupuesto, java.lang.Integer planDeMeta,
+         java.lang.Integer antiguedaLocal, java.lang.Integer rentaBruta,
          java.lang.Integer porcentajeCumplimiento,
-         java.lang.Integer variacionMinima,
-         java.lang.Integer variacionMaxima, java.lang.Integer rut,
-         java.lang.Integer monto)
+         java.lang.Integer variacionMinima, java.lang.Integer variacionMaxima,
+         java.lang.Integer rut, java.lang.Integer monto, java.lang.String cargo)
    {
       this.ventaNeta = ventaNeta;
       this.ventaAreaComercia = ventaAreaComercia;
@@ -167,6 +178,7 @@ public class Ventas implements java.io.Serializable
       this.variacionMaxima = variacionMaxima;
       this.rut = rut;
       this.monto = monto;
+      this.cargo = cargo;
    }
 
 }

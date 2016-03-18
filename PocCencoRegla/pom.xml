@@ -6,7 +6,7 @@
   <artifactId>PocCencoRegla</artifactId>
   <version>1.0</version>
   <name>PocCencoRegla</name>
-  <description>Poc para Cencosud en base  a su regla para el calculo de Pago gestores de venta Administración SISA</description>
+  <description>Poc para Cencosud en base  a su regla para el calculo de Premio de venta Jumbo</description>
   <build>
     <plugins>
       <plugin>

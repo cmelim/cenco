@@ -9,24 +9,27 @@ public class Venta implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "ventaMensual")
+   @org.kie.api.definition.type.Label("ventaMensual")
    private java.lang.Integer ventaMensual;
-   @org.kie.api.definition.type.Label(value = "VentaComercial")
+   @org.kie.api.definition.type.Label("VentaComercial")
    private java.lang.Integer ventaComercial;
-   @org.kie.api.definition.type.Label(value = "Diferencia")
+   @org.kie.api.definition.type.Label("Diferencia")
    private java.lang.Integer diferencia;
-   @org.kie.api.definition.type.Label(value = "MetaObjetivo")
+   @org.kie.api.definition.type.Label("MetaObjetivo")
    private java.lang.Integer metaObjetivo;
-   @org.kie.api.definition.type.Label(value = "Premio")
+   @org.kie.api.definition.type.Label("Premio")
    private java.lang.Integer premio;
-   @org.kie.api.definition.type.Label(value = "RentaBruta")
+   @org.kie.api.definition.type.Label("RentaBruta")
    private java.lang.Integer rentaBruta;
-   @org.kie.api.definition.type.Label(value = "Cargo")
+   @org.kie.api.definition.type.Label("Cargo")
    private java.lang.String cargo;
-   @org.kie.api.definition.type.Label(value = "RentaTotal")
+   @org.kie.api.definition.type.Label("RentaTotal")
    private java.lang.Integer rentaTotal;
-   @org.kie.api.definition.type.Label(value = "PorcentajePremio")
+   @org.kie.api.definition.type.Label("PorcentajePremio")
    private java.lang.Integer porcentajePremio;
+
+   @org.kie.api.definition.type.Label(value = "Porcentaje Por Cargo")
+   private java.lang.Double porcetajePorCargo;
 
    public Venta()
    {
@@ -122,11 +125,21 @@ public class Venta implements java.io.Serializable
       this.porcentajePremio = porcentajePremio;
    }
 
-   public Venta(java.lang.Integer ventaMensual,
-         java.lang.Integer ventaComercial, java.lang.Integer diferencia,
-         java.lang.Integer metaObjetivo, java.lang.Integer premio,
-         java.lang.Integer rentaBruta, java.lang.String cargo,
-         java.lang.Integer rentaTotal, java.lang.Integer porcentajePremio)
+   public java.lang.Double getPorcetajePorCargo()
+   {
+      return this.porcetajePorCargo;
+   }
+
+   public void setPorcetajePorCargo(java.lang.Double porcetajePorCargo)
+   {
+      this.porcetajePorCargo = porcetajePorCargo;
+   }
+
+   public Venta(java.lang.Integer ventaMensual, java.lang.Integer ventaComercial,
+         java.lang.Integer diferencia, java.lang.Integer metaObjetivo,
+         java.lang.Integer premio, java.lang.Integer rentaBruta,
+         java.lang.String cargo, java.lang.Integer rentaTotal,
+         java.lang.Integer porcentajePremio, java.lang.Double porcetajePorCargo)
    {
       this.ventaMensual = ventaMensual;
       this.ventaComercial = ventaComercial;
@@ -137,6 +150,7 @@ public class Venta implements java.io.Serializable
       this.cargo = cargo;
       this.rentaTotal = rentaTotal;
       this.porcentajePremio = porcentajePremio;
+      this.porcetajePorCargo = porcetajePorCargo;
    }
 
 }

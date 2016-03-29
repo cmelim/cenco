@@ -1,0 +1,77 @@
+
+<form id="142243921">
+<property name="name" value="PocCencoRegla.asas-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="Ventas_cargo" type="InputText" id="2605299">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cargo (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/cargo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="Ventas_diferencia" type="InputTextInteger" id="2084896858">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;diferencia (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/diferencia"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="Ventas_metaObjetivo" type="InputTextInteger" id="617915234">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;metaObjetivo (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/metaObjetivo"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="Ventas_porcentajePremio" type="InputTextInteger" id="1617711727">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;porcentajePremio (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/porcentajePremio"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="Ventas_porcetajePorCargo" type="InputTextDouble" id="2105082658">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;porcetajePorCargo (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/porcetajePorCargo"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="5" name="Ventas_premio" type="InputTextInteger" id="2134991504">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;premio (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/premio"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="Ventas_rentaBruta" type="InputTextInteger" id="1793859698">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rentaBruta (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/rentaBruta"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="Ventas_rentaTotal" type="InputTextInteger" id="1699444065">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rentaTotal (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/rentaTotal"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="Ventas_ventaComercial" type="InputTextInteger" id="658866186">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ventaComercial (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/ventaComercial"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="Ventas_ventaMensual" type="InputTextInteger" id="367848906">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ventaMensual (Ventas)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Ventas/ventaMensual"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="Ventas" value="cencosud.poccencoregla.Venta" id="Ventas"/>
+</form>

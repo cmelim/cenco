@@ -28,8 +28,11 @@ public class Venta implements java.io.Serializable
    @org.kie.api.definition.type.Label("PorcentajePremio")
    private java.lang.Integer porcentajePremio;
 
-   @org.kie.api.definition.type.Label(value = "Porcentaje Por Cargo")
+   @org.kie.api.definition.type.Label("Porcentaje Por Cargo")
    private java.lang.Double porcetajePorCargo;
+
+   @org.kie.api.definition.type.Label(value = "Antiguedad Local")
+   private int antiguedadLocal;
 
    public Venta()
    {
@@ -135,11 +138,22 @@ public class Venta implements java.io.Serializable
       this.porcetajePorCargo = porcetajePorCargo;
    }
 
+   public int getAntiguedadLocal()
+   {
+      return this.antiguedadLocal;
+   }
+
+   public void setAntiguedadLocal(int antiguedadLocal)
+   {
+      this.antiguedadLocal = antiguedadLocal;
+   }
+
    public Venta(java.lang.Integer ventaMensual, java.lang.Integer ventaComercial,
          java.lang.Integer diferencia, java.lang.Integer metaObjetivo,
          java.lang.Integer premio, java.lang.Integer rentaBruta,
          java.lang.String cargo, java.lang.Integer rentaTotal,
-         java.lang.Integer porcentajePremio, java.lang.Double porcetajePorCargo)
+         java.lang.Integer porcentajePremio, java.lang.Double porcetajePorCargo,
+         int antiguedadLocal)
    {
       this.ventaMensual = ventaMensual;
       this.ventaComercial = ventaComercial;
@@ -151,6 +165,7 @@ public class Venta implements java.io.Serializable
       this.rentaTotal = rentaTotal;
       this.porcentajePremio = porcentajePremio;
       this.porcetajePorCargo = porcetajePorCargo;
+      this.antiguedadLocal = antiguedadLocal;
    }
 
 }

@@ -122,9 +122,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">25.0</valueNumeric>
+        <valueNumeric class="float">33.3</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+        <dataType>NUMERIC_FLOAT</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
@@ -151,9 +151,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">25.0</valueNumeric>
+        <valueNumeric class="float">25.0</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+        <dataType>NUMERIC_FLOAT</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
@@ -180,9 +180,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">16.67</valueNumeric>
+        <valueNumeric class="float">16.67</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+        <dataType>NUMERIC_FLOAT</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
@@ -209,9 +209,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">33.3</valueNumeric>
+        <valueNumeric class="float">25.0</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+        <dataType>NUMERIC_FLOAT</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>

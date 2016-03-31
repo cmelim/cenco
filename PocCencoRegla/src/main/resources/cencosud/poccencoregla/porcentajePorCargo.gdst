@@ -118,14 +118,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SubGerentehiper</valueString>
+        <valueString>SUBGERENTEHIPER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">25.0</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+        <dataType>NUMERIC_FLOAT</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
@@ -147,14 +146,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>GerenteSuper</valueString>
+        <valueString>GERENTESUPER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">25.0</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+        <dataType>NUMERIC_FLOAT</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
@@ -176,14 +174,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SubGerenteSuper</valueString>
+        <valueString>SUBGERENTESUPER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">16.67</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+        <dataType>NUMERIC_FLOAT</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
@@ -205,14 +202,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>GerenteHiper</valueString>
+        <valueString>GERENTEHIPER</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">33.3</valueNumeric>
         <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+        <dataType>NUMERIC_FLOAT</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>

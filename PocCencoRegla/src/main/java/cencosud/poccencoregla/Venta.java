@@ -29,9 +29,9 @@ public class Venta implements java.io.Serializable
    private java.lang.Integer porcentajePremio;
 
    @org.kie.api.definition.type.Label("Porcentaje Por Cargo")
-   private java.lang.Double porcetajePorCargo;
+   private Float porcetajePorCargo;
 
-   @org.kie.api.definition.type.Label(value = "Antiguedad Local")
+   @org.kie.api.definition.type.Label("Antiguedad Local")
    private int antiguedadLocal;
 
    public Venta()
@@ -128,16 +128,6 @@ public class Venta implements java.io.Serializable
       this.porcentajePremio = porcentajePremio;
    }
 
-   public java.lang.Double getPorcetajePorCargo()
-   {
-      return this.porcetajePorCargo;
-   }
-
-   public void setPorcetajePorCargo(java.lang.Double porcetajePorCargo)
-   {
-      this.porcetajePorCargo = porcetajePorCargo;
-   }
-
    public int getAntiguedadLocal()
    {
       return this.antiguedadLocal;
@@ -148,11 +138,21 @@ public class Venta implements java.io.Serializable
       this.antiguedadLocal = antiguedadLocal;
    }
 
+   public java.lang.Float getPorcetajePorCargo()
+   {
+      return this.porcetajePorCargo;
+   }
+
+   public void setPorcetajePorCargo(java.lang.Float porcetajePorCargo)
+   {
+      this.porcetajePorCargo = porcetajePorCargo;
+   }
+
    public Venta(java.lang.Integer ventaMensual, java.lang.Integer ventaComercial,
          java.lang.Integer diferencia, java.lang.Integer metaObjetivo,
          java.lang.Integer premio, java.lang.Integer rentaBruta,
          java.lang.String cargo, java.lang.Integer rentaTotal,
-         java.lang.Integer porcentajePremio, java.lang.Double porcetajePorCargo,
+         java.lang.Integer porcentajePremio, java.lang.Float porcetajePorCargo,
          int antiguedadLocal)
    {
       this.ventaMensual = ventaMensual;

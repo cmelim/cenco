@@ -34,6 +34,9 @@ public class Venta implements java.io.Serializable
    @org.kie.api.definition.type.Label("Antiguedad Local")
    private int antiguedadLocal;
 
+   @org.kie.api.definition.type.Label(value = "Rut")
+   private java.lang.Integer rut;
+
    public Venta()
    {
    }
@@ -148,12 +151,22 @@ public class Venta implements java.io.Serializable
       this.porcetajePorCargo = porcetajePorCargo;
    }
 
+   public java.lang.Integer getRut()
+   {
+      return this.rut;
+   }
+
+   public void setRut(java.lang.Integer rut)
+   {
+      this.rut = rut;
+   }
+
    public Venta(java.lang.Integer ventaMensual, java.lang.Integer ventaComercial,
          java.lang.Integer diferencia, java.lang.Integer metaObjetivo,
          java.lang.Integer premio, java.lang.Integer rentaBruta,
          java.lang.String cargo, java.lang.Integer rentaTotal,
          java.lang.Integer porcentajePremio, java.lang.Float porcetajePorCargo,
-         int antiguedadLocal)
+         int antiguedadLocal, java.lang.Integer rut)
    {
       this.ventaMensual = ventaMensual;
       this.ventaComercial = ventaComercial;
@@ -166,6 +179,7 @@ public class Venta implements java.io.Serializable
       this.porcentajePremio = porcentajePremio;
       this.porcetajePorCargo = porcetajePorCargo;
       this.antiguedadLocal = antiguedadLocal;
+      this.rut = rut;
    }
 
 }

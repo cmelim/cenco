@@ -345,20 +345,11 @@ System.out.println(" ===== FIN Comprovando Antiguedad del local ===== ");]]></bp
     </bpmn2:scriptTask>
     <bpmn2:sequenceFlow id="_19737334-EC22-4A60-AEE8-EB714E9746C1" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_80E69C43-F5D3-46B8-A62B-424C1E3DE095" targetRef="_67FC721D-FA4F-4FC0-AA33-A49864CF1EBE"/>
     <bpmn2:sequenceFlow id="_EC07F389-C95D-439D-9202-AF00C9803FD1" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_67FC721D-FA4F-4FC0-AA33-A49864CF1EBE" targetRef="_CF216E15-8218-4AAA-B45A-81370BA7F780">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_5YL0o_gTEeWRqKFrNkwvxw" language="http://www.java.com/java"><![CDATA[System.out.println("=========  Verificando XOR  ==============");\
-\
-System.out.println("Verificando Cariables globales ");\
-\
-System.out.println("Ventas.getPorcentajePremio() "+Ventas.getPorcentajePremio() );\
-                   \
-\
-System.out.println("antiguedad < 6 meses  "+antiguedad );\
-                   \
-\
-System.out.println("=========  FIN XOR  ==============");\
-\
-\
-  ]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_5YL0o_gTEeWRqKFrNkwvxw" language="http://www.java.com/java">
+      
+      <![CDATA[  ]]>
+          
+      </bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_5YL0pPgTEeWRqKFrNkwvxw">
